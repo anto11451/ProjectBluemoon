@@ -1,0 +1,78 @@
+/* app.css */
+
+/* Ensure the whole container is centered */
+.activity-vs-calories-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 2rem;
+    background-color: #d7c81b;
+  }
+  
+  .activity-vs-calories-header {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .food-list {
+    margin: 2rem 0;
+    text-align: left;
+  }
+  
+  .food-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .food-item {
+    background-color: #111010;
+    padding: 1rem;
+    margin: 0.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .food-item:hover {
+    background-color: #a127ae;
+  }
+  
+  .selected-food {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  .workouts-list {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .workout-option {
+    background-color: #011002;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .activity-vs-calories-button {
+    padding: 1rem 2rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 2rem;
+  }
+  
+  .activity-vs-calories-button:hover {
+    background-color: #0056b3;
+  }
+  
