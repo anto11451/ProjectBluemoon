@@ -1,8 +1,24 @@
+<<<<<<< HEAD
 /node_modules
 /.pnp
 .pnp.js
 /coverage
 
+=======
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+>>>>>>> 2b878c072360a3d5b93d3c2662db41a8ac3c89db
 # misc
 .DS_Store
 .env.local
