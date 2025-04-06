@@ -1,0 +1,74 @@
+/* Body Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(135deg, #1f1f1f, #2c3e50); /* Dark elegant gradient */
+  margin: 0;
+  padding: 0;
+  color: #e0e0e0; /* Light grey text */
+}
+
+/* App Container */
+.App {
+  background: rgba(255, 255, 255, 0.05); /* Transparent glass effect */
+  border-radius: 20px;
+  padding: 50px 30px;
+  width: 90%;
+  max-width: 950px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(12px);
+  transition: all 0.3s ease;
+}
+
+/* Heading Color Change */
+.home h1 {
+  font-size: 2.8em;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #00bcd4; /* Soft elegant blue */
+}
+
+/* Links */
+.home ul li a {
+  color: #81d4fa; /* Gentle blue */
+}
+
+.home ul li a:hover {
+  color: #00bcd4;
+}
+
+/* Button */
+button {
+  background-color: #37474f; /* Dark grey-blue */
+  color: #fff;
+}
+
+button:hover {
+  background-color: #607d8b; /* Softer grey-blue on hover */
+}
+
+/* Logo Styling */
+.logo {
+  max-width: 140px;
+  margin-bottom: 30px;
+  filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.3));
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .App {
+    padding: 30px 20px;
+  }
+
+  .home h1 {
+    font-size: 2em;
+  }
+
+  .home ul li a {
+    font-size: 1.1em;
+  }
+
+  button {
+    padding: 12px 24px;
+    font-size: 1em;
+  }
+}
