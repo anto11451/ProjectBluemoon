@@ -2,7 +2,7 @@
   "name": "ProjectBluemoon",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://anto11451.github.io/my-app",
+  "homepage": "https://anto11451.github.io/ProjectBluemoon",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
@@ -16,7 +16,7 @@
     "web-vitals": "^2.1.4"
   },
   "devDependencies": {
-    "gh-pages": "^6.0.0"
+    "gh-pages": "^6.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
