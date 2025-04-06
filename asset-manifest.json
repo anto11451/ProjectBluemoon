@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ProjectBluemoon/static/css/main.512ad51d.css",
-    "main.js": "/ProjectBluemoon/static/js/main.0acb06ef.js",
+    "main.js": "/ProjectBluemoon/static/js/main.1cbdb912.js",
     "static/js/453.3cdd3af5.chunk.js": "/ProjectBluemoon/static/js/453.3cdd3af5.chunk.js",
     "index.html": "/ProjectBluemoon/index.html",
     "main.512ad51d.css.map": "/ProjectBluemoon/static/css/main.512ad51d.css.map",
-    "main.0acb06ef.js.map": "/ProjectBluemoon/static/js/main.0acb06ef.js.map",
+    "main.1cbdb912.js.map": "/ProjectBluemoon/static/js/main.1cbdb912.js.map",
     "453.3cdd3af5.chunk.js.map": "/ProjectBluemoon/static/js/453.3cdd3af5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.512ad51d.css",
-    "static/js/main.0acb06ef.js"
+    "static/js/main.1cbdb912.js"
   ]
 }
